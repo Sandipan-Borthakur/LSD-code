@@ -1,0 +1,44 @@
+[Params]
+res : 48000
+vr,fitvr : [0.0,0]
+vsini,fitvsini : [5,0]
+vmic,fitvmic : [2.5,0]
+vmac,fitvmac : [5,0]
+teff,fitteff : [9000,0]
+logg,fitlogg : [4.0,0]
+metal,fitmetal : [0,0]
+elements : [
+    ]
+savefile : 0
+showplot : 0
+read_wave_from_text : 0
+mainpath : "zeeman_lsd/Analysis1"
+vlinespath : "data/t9000g40.dat"
+obsspecpath : "zeeman_lsd/t9000g40_snr-300_w1000.synobsspec.err"
+n_iter : 2
+iterlist : [
+    ]
+wave_range_lists : [
+	[
+	[4000,4200],
+    [4200,4400],
+    [4400,4600],
+    [4600,4800],
+    [4800,5000],
+    [5000,5200],
+    [5200,5400],
+    [5400,5600],
+    [5600,5800],
+    [5800,6000],
+    [6000,6200],
+    [6200,6400],
+    [6400,6600],
+    [6600,6800],
+    [6800,7000],
+    [7000,7200],
+    [7200,7400],
+    [7400,7600],
+    [7600,7800],
+    [7800,8000]
+	]
+    ]
